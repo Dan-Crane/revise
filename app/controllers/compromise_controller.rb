@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
 class CompromiseController < ApplicationController
-  def index; end
-
   def search
     if params[:email].blank?
       redirect_to(root_path, alert: 'Empty field!') && return
