@@ -1,0 +1,2 @@
+class Compromise < ApplicationRecord
+end
